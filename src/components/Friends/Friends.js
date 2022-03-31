@@ -12,6 +12,11 @@ const Friends = () => {
     <div>
       <h2>This is Friends page {friends.length}</h2>
       <p>Welcome my friends page</p>
+
+      {/* <div id="load" className="loading">
+        <img src="cloud-network.gif" alt="gif" />
+      </div> */}
+
       <div className="friends-wrapper">
         {friends.map((friend) => (
           <Friend key={friend.id} friend={friend}></Friend>

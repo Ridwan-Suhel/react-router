@@ -1,5 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
+import CustomLink from "../CustomLink/CustomLink";
 import "./Header.css";
 const Header = () => {
   return (
@@ -7,16 +7,16 @@ const Header = () => {
       <nav>
         <ul>
           <li>
-            <Link to="/home">Home</Link>
+            <CustomLink to="/home">Home</CustomLink>
           </li>
           <li>
-            <Link to="/about">About</Link>
+            <CustomLink to="/about">About</CustomLink>
           </li>
           <li>
-            <Link to="/contact">Contact</Link>
+            <CustomLink to="/contact">Contact</CustomLink>
           </li>
           <li>
-            <Link to="/friends">Friends</Link>
+            <CustomLink to="/friends">Friends</CustomLink>
           </li>
         </ul>
       </nav>
