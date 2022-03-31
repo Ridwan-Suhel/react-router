@@ -19,6 +19,9 @@ const Header = () => {
             <CustomLink to="/posts">Posts</CustomLink>
           </li>
           <li>
+            <CustomLink to="/countries">Countries</CustomLink>
+          </li>
+          <li>
             <CustomLink to="/friends">Friends</CustomLink>
           </li>
         </ul>

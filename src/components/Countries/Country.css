@@ -1,0 +1,16 @@
+ul.country-ul {
+  display: grid;
+  grid-template-columns: repeat(5, 1fr);
+}
+ul {
+  padding-left: 0;
+}
+ul.country-ul li {
+  background: #333;
+
+  padding: 10px;
+  border-radius: 4px;
+}
+ul.country-ul li a {
+  color: #fff;
+}

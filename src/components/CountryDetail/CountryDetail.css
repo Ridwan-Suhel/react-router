@@ -1,0 +1,13 @@
+.top-title-country {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.top-title-country span.flag {
+  margin-top: 3px;
+}
+.top-title-country span img {
+  width: 25px;
+  object-fit: cover;
+  margin-left: 10px;
+}
